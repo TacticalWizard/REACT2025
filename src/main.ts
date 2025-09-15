@@ -2,8 +2,19 @@ import './style.css'
 /*import './bases/01-const-let'
 import './bases/03-object-literals'
 import './bases/04-arrays'
-import './bases/05-functions'*/
+import './bases/05-functions'
 import './bases/06-obj.destructuring'
+import './bases/07-array-destructuring'
+import './bases/07-2-task-destructuring'
+import './bases/08-imp-exp'
+import { Owner } from "./data/heroes.data"
+import { getHeroByOwner } from './bases/08-imp-exp'
+import './bases/09-promises'
+import './bases/10-fetch-api'*/
+import './bases/11-async-Await'
+
+
+
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -11,3 +22,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h1>Hola mundo</h1>
   </div>
 `;
+
+//console.log(getHeroByOwner(Owner.Marvel));
+
